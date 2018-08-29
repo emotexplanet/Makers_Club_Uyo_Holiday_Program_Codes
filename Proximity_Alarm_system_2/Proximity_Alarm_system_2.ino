@@ -16,11 +16,11 @@ void setup() {
 void loop() {
   int motion = digitalRead(PIR_Motion_Pin);//read the status of the pin
   if (motion == 1) {
-    tone(piezoPin, 1000, 500); // play tone
+    digitalWrite(piezoPin, HIGH);
   }
   else{
-    noTone(piezoPin); //disable the tone on the pin
+    digitalWrite(piezoPin, LOW);
   }
-  delay(1000); //Delay for 1 second
+  delay(10); //Delay for 1 second
 }
 
