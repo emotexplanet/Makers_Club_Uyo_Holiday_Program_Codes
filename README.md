@@ -11,6 +11,8 @@ Projects made during the period of the programmed:
 5.	Proximity Alarm System
 6.	Smart Dust Bin
 7.	Weather Station
+
+
 Components used:
 1.	2WD Robotic car
 a)	Ultrasonic sensor
